@@ -1,9 +1,21 @@
-.banner{
-    background-image: url(images/banner.jpg);
-    height: 100vh;
-    background-repeat: no-repeat;
-    width: 100%;
+body{
+    font-family: sans-serif;
 }
+
 h1{
-   color:red; 
+    font-size: 40px;
+}
+.name-highlight{
+    color: orange;
+}
+
+.width-half{
+    width: 40%;
+    float: left;
+    margin-left:5%;
+    padding-left: 2%;
+}
+
+.width-half img{
+    width: 100%;
 }
