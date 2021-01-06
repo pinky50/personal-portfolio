@@ -153,15 +153,13 @@ img{
 }
 
 .inquiry-right a:hover{
-    background-color: transparent;
-    border: 2px solid #FB6656;
-    padding: 8px 13px;
-    color: #FB6656;
+    background-color: #e29086;
+    color: white;
 }
 
 .inquiry-left h2{
     color: white;
-    font-size: 30px;
+    font-size: 32px;
     text-transform: uppercase;
 }
 /* inquiry section end here */
@@ -171,6 +169,10 @@ img{
 .contact-form{
     width: 60%;
     margin: 0 auto;
+}
+form{
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
  form label{
@@ -225,9 +227,3 @@ input[type=text], select, textarea {
 
   /* footer section end here */
 
-  /* .latest-work-section{
-      overflow: hidden;
-  }
-  .section-divider, .width-half{
-      overflow: hidden;
-  } */
