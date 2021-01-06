@@ -1,50 +1,223 @@
+/* global css start here */
+
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900');
+@import url('https://fonts.googleapis.com/css?family=Nosifer');
+@import url('https://fonts.googleapis.com/css?family=Lobster|Nosifer');
+
 body{
-    font-family: sans-serif;
     margin: 0;
+    padding:0;
+    font-family: 'Nunito Sans', sans-serif;
 }
 
-.top-banner{
-    background-image: url("images/top-banner.png");
-    background-repeat: no-repeat;
+.container{
+    margin: 0 5%;
 }
+.section-divider{
+    margin: 40px 0;
+}
+
+/* global css end here */
+
+/* nav section start here */
+
+.nav-section{
+    padding:30px 0;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.nav-section a{
+    float: left;
+    color: black;
+    font-weight: bold;
+    padding: 0px 10px;
+    text-decoration: none;
+}
+.nav-section a:hover{
+    color: #FB6656;
+}
+
+.navbar-list{
+    float: right;
+}
+.navbar-list-active{
+    color:#FB6656!important;
+}
+
+/* nav section end here */
+
+/* banner section start here*/
 
 h1{
     font-size: 40px;
+    font-family: 'Lobster', cursive;
 }
-.name-highlight{
-    color: orange;
+.text-highlight{
+    color:  #FB6656;
 }
 
+img{
+    width: 100%;
+}
 .width-half{
-    width: 40%;
+    width: 45%;
     float: left;
-    margin-left:5%;
-    padding-left: 2%;
+    margin-left: 5%;
+    min-height: 500px;
+   
 }
 
 .width-half img{
     width: 100%;
 }
 
-section{
-    height: 500px;
-    padding-bottom: 150px;
-}
 .link-button{
     margin-top: 40px;
 }
 .link-button a{
     padding: 10px 20px;
     color: white;
-   background-image: linear-gradient(45deg, lightsalmon ,tomato);
+    background-color: #FB6656;
     border-radius: 10px;
     text-decoration: none;
     margin-top: 20px;
     font-weight: bold;
 }
-
-.dream-area{
-    background-image: url("images/dream-bg.png");
-    background-repeat: no-repeat;
-    background-position: right;
+.link-button a:hover{
+    background-color: white;
+    border:2px solid  #FB6656;
+    color:#FB6656;
+    font-weight: bold;
 }
+
+.section-header h1{
+    text-align: center;
+    margin: 50px 0;
+}
+
+/* banner section end here */
+
+/* latest work section start here */
+
+.latest-work{
+    float: left;
+    width: 27%;
+    margin:1.5%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.latest-work img{
+    border-radius: 10px;
+}
+
+/* latest work section end here */
+
+/* inquiry section start here */
+
+.inquiry-section{
+    background-image: url(images/inquiry.jpg);
+    background-repeat: no-repeat;
+    width: 60%;
+    height: 200px;
+    border-radius: 20px;
+    margin:30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inquiry-left{
+    width: 35%;
+}
+
+.inquiry-right{
+    width: 35%;
+    float: right;
+}
+
+.inquiry-right a{
+    float: right;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #FB6656;
+    border-radius: 10px;
+    font-size:18px;
+    font-weight: bold;
+}
+
+.inquiry-right a:hover{
+    background-color: transparent;
+    border: 2px solid #FB6656;
+    padding: 8px 13px;
+    color: #FB6656;
+}
+
+.inquiry-left h2{
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+/* inquiry section end here */
+
+/* contact section start here */
+
+.contact-form{
+    width: 60%;
+    margin: 0 auto;
+}
+
+ form label{
+     font-weight: bold;
+ }
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color:#FB6656;
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid #FB6656;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size:18px;
+  }
+  
+  input[type=submit]:hover {
+    background-color:   transparent;
+    border: 2px solid #FB6656;
+    color: #FB6656;
+  }
+
+  /* contact section end here */
+
+  /* footer section start here */
+  .footer-section{
+      text-align: center;
+      margin: 50px 0;
+  }
+  .footer-section h3{
+      color: #696871;
+  }
+  .footer-section h2{
+      font-size: 30px;
+      color: #363958;
+  }
+  .contact-icon a img{
+      width: 30px;
+      margin-left: 20px;
+  }
+
+  /* footer section end here */

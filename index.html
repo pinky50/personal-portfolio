@@ -3,36 +3,153 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>personal-portfolio</title>
+    <title>personal portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <section class="top-banner">
-    <div class="width-half">
-        <h1>Welcome To</h1>
-        <h1> <span class="name-highlight">Pinky Malo</span> Website</h1>
-         <h3>World class profesional developer</h3>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro unde esse soluta? Quisquam ipsum odio fugit voluptate maxime. Tempora sunt est quam exercitationem nam animi fuga aliquid sit hic illum.</p>
-         <div class="link-button">
-            <a   target="_blank" href="https://web.programming-hero.com/"> Click Me</a>
-         </div>
-       </div>
-       <div class="width-half">
-           <img src="images/jhankar.png" alt="">
-       </div>
+
+<div class="container">
+
+<!-- nav section start here -->
+
+    <section class="nav-section">
+        <div class="navbar-list">
+            <a href="#!" class="navbar-list-active">Home</a>
+            <a href="#!">About</a>
+            <a href="#!">Work</a>
+            <a href="#!">Portfolio</a>
+            <a href="#!">Contact</a>
+        </div>
+    </section>
+
+<!-- nav section end here -->
+
+<!-- banner section start here -->
+
+   <section class="top-banner section-divider">
+        <div class="width-half">
+            <h1>Hello! There</h1>
+            <h1>I'm <span class="text-highlight">Pinky Malo</span></h1>
+            <p>I am Pinky Malo and I am a front-end developer. I have 2 years of experience in web site design & building and customization. You can hire me if you think I am capable to do that.</p>
+            <div class="link-button">
+                <a href="https://web.programming-hero.com/" target="_blank"> Hire Me</a>
+            </div>
+        </div>
+        <div class="width-half">
+            <img src="images/banner.png" alt="">
+        </div>
    </section>
-   <section class="dream-area">
+
+<!-- banner section end here -->
+
+<!-- about section start here -->
+
+   <section class="about section-divider"> 
+    
        <div class="width-half">
-          <img src="images/jhankar2.png" alt="">  
+          <img src="images/about.png" alt="">  
        </div>
        <div class="width-half">
-        <h2>Big dream</h2>
+        <h1><span class="text-highlight">About</span> Me</h1>
         <h3>I am a front end developer</h3>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi voluptatum error fugiat debitis optio totam ab ea odit, facilis asperiores incidunt nihil earum, facere est. Quisquam ex sed adipisci impedit.</p>
         <div class="link-button">
-            <a   target="_blank" href="https://web.programming-hero.com/"> Download Resume</a>
+            <a href="https://web.programming-hero.com/" target="_blank"> Download CV</a>
          </div>
        </div>
    </section>
+
+<!-- about section end here -->
+
+<!-- latest work section start here -->
+
+    <section class="latest-work-section">
+        <div class="section-header">
+            <h1>Latest Working Projects</h1>
+        </div> 
+
+        <div class="latest-work">
+            <img src="images/work3.jpg" alt="">
+            <h2>Personal Portfolio</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut nulla quaerat dolores laborum doloribus quos laboriosam saepe</p>
+        </div>
+
+        <div class="latest-work">
+            <img src="images/work.jpg" alt="">
+            <h2>Corporate Website</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut nulla quaerat dolores laborum doloribus quos laboriosam saepe</p>
+        </div>
+
+        <div class="latest-work">
+            <img src="images/work2.jpg" alt="">
+            <h2>React Website</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut nulla quaerat dolores laborum doloribus quos laboriosam saepe</p>
+        </div>
+
+    </section>
+
+<!-- latest work section end here -->
+
+<!-- contact section start here -->
+
+    <section class="contact-form">
+        
+        <div class="section-header">
+            <h1><span class="text-highlight">Contact</span> Me</h1>
+        </div>
+        <form>
+            <label>First Name</label>
+            <input type="text"  name="firstname" placeholder="Write your first name..">
+        
+            <label for="lname">Last Name</label>
+            <input type="text"  name="lastname" placeholder="Write your last name..">
+        
+            <label for="country">Country</label>
+            <select id="country" name="country">
+                <option value="Bangladesh">Bangladesh</option>
+                <option value="usa">USA</option>
+                <option value="australia">Australia</option>
+            </select>
+        
+            <label>Subject</label>
+            <textarea name="subject" placeholder="Write something here.." style="height:100px"></textarea>
+        
+            <input type="submit" value="Submit">
+        </form>
+
+    </section>
+
+<!-- contact section end here -->
+
+<!-- inquiry section start here -->
+
+    <section class="inquiry-section">
+        <div class="inquiry-left">
+             <h2>WORK INQUIRY</h2>
+        </div>
+        <div class="inquiry-right">
+            <a href="https://web.programming-hero.com/" target="_blank">Let's Chat</a>
+        </div>
+    </section>
+
+<!-- inquiry section end here -->
+
+
+<!-- footer section start here -->
+
+    <footer class="footer-section">
+        <h3>STAY CONNECTED</h3>
+        <h2>hello@design.com</h2>
+        
+        <div class="contact-icon">
+            <a href="#!"><img src="images/icon2.png" alt=""></a>
+            <a href="#!"><img src="images/icon.png" alt=""></a>
+            <a href="#!"><img src="images/icon3.png" alt=""></a>
+        </div>
+    </footer>
+
+<!-- footer section end here -->
+
+</div>
 </body>
 </html>
